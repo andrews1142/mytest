@@ -13,6 +13,10 @@ namespace Test.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// About Us
+        /// </summary>
+        /// <returns></returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
