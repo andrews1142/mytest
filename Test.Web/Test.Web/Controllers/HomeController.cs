@@ -8,6 +8,10 @@ namespace Test.Web.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Index added
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
